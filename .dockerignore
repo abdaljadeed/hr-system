@@ -6,7 +6,6 @@ vendor
 .env
 .env.backup
 .env.production
-public/build
 public/hot
 public/storage
 database/database.sqlite

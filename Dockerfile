@@ -40,4 +40,4 @@ RUN touch database/database.sqlite \
 
 EXPOSE 8080
 
-CMD ["sh", "-c", "php artisan config:cache && php artisan serve --host=0.0.0.0 --port=8080"]
+CMD ["sh", "-c", "export APP_URL=\"${RENDER_EXTERNAL_URL:-http://localhost:8080}\"; php artisan config:cache && php artisan serve --host=0.0.0.0 --port=8080"]
