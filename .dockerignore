@@ -1,0 +1,15 @@
+.git
+.gitignore
+.github
+node_modules
+vendor
+.env
+.env.backup
+.env.production
+public/build
+public/hot
+public/storage
+database/database.sqlite
+storage/logs/*.log
+README.md
+PLAN.md
